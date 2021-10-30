@@ -45,7 +45,7 @@
         height: 28px;
         border: 1px solid #303030;
         border-radius: 8px;
-        background: url('/img/ico-head-banner.png') no-repeat;
+        background: url('./img/ico-head-banner.png') no-repeat;
         background-size: cover;
         position: absolute;
         left: 16px;
@@ -93,7 +93,7 @@
     header h1 a{
         width: 72px;
         height: 18px;
-        background: url('/img/sp_29cm_m.png') no-repeat 0 0;
+        background: url('./img/sp_29cm_m.png') no-repeat 0 0;
         background-size: 72px 43px;
     }
     header .menuBox{
@@ -112,7 +112,7 @@
         display: block;
         width: 24px;
         height: 24px;
-        background: url('/img/sp_m_29cm.png') no-repeat;
+        background: url('./img/sp_m_29cm.png') no-repeat;
         background-size: 48px 48px;
         cursor: pointer;
     } 
