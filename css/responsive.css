@@ -1,0 +1,199 @@
+@media screen and (min-width: 521px) and (max-width: 1263px) {
+    nav .majorNav li a{
+        font-size: 38px;
+    }
+    nav .bottomNav ul.categories a,
+    nav .bottomNav ul.subNav2 a{
+        font-size: 14px;
+    }
+    footer .footNav ul.notice{
+        /* flex: 1; */
+        max-width: 200px;
+        margin-right: 40px;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 520px) {
+    body{
+        -ms-overflow-style: none;
+        height: 100%;
+    }
+    body::-webkit-scrollbar{
+        display: none;
+    }
+    .headWrap, header, nav, section{
+        min-width: 520px;
+    }
+    .headWrap{
+        padding-bottom: 0;
+    }
+    .topBanner{
+        height: 50px;
+        padding: 0 110px 0 0;
+        text-align: left;
+        position: relative;
+    }
+    .topBanner .m_banner{
+        display: block;
+        padding-left: 52px;
+        padding-right: 87px;
+    }
+    .topBanner .m_banner::before{
+        content: '';
+        width: 28px;
+        height: 28px;
+        border: 1px solid #303030;
+        border-radius: 8px;
+        background: url('/img/ico-head-banner.png') no-repeat;
+        background-size: cover;
+        position: absolute;
+        left: 16px;
+        top: 50%;
+        transform: translateY(-50%);
+        box-sizing: border-box;
+    }
+    .topBanner span:nth-child(2),
+    .topBanner span:nth-child(3){
+        display: none;
+    }
+    .topBanner .m_banner a{
+        line-height: 50px;
+        letter-spacing: -.2px;
+    }
+    .topBanner .m_banner_btn{
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 415px;
+        background: #ff4800;
+        color: #fff;
+        cursor: pointer;
+        padding: 0 12px;
+        border-radius: 14px;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 24px;
+        transform: translateY(-50%);
+    }
+    
+
+    header{
+        height: 50px;
+        padding-bottom: 0;
+    }
+    header h1{
+        width: 72px;
+        height: 18px;
+        padding: 0;
+        position: absolute;
+        top: 16px;
+        left: 16px;
+    }
+    header h1 a{
+        width: 72px;
+        height: 18px;
+        background: url('/img/sp_29cm_m.png') no-repeat 0 0;
+        background-size: 72px 43px;
+    }
+    header .menuBox{
+        display: none;
+    }
+    header .m_menuBox{
+        display: flex;
+        position: absolute;
+        left: 424px;
+        top: 14px;
+    }
+    header .m_menuBox li.m_findBtn{
+        margin-right: 15px;
+    }
+    header .m_menuBox li a{
+        display: block;
+        width: 24px;
+        height: 24px;
+        background: url('/img/sp_m_29cm.png') no-repeat;
+        background-size: 48px 48px;
+        cursor: pointer;
+    } 
+    header .m_menuBox li.m_findBtn a{
+        background-position: 0 0;
+    }
+    header .m_menuBox li.m_shopping a{
+        background-position: -24px 0;
+    }
+
+    nav{
+        display: none;
+    }
+    .m_nav{
+        display: block;
+        position: fixed;
+        left: 0; bottom: 0;
+        z-index: 999;
+        width: 100%;
+    }
+    .m_nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        height: 66px;
+        background-color: #efefef;
+    }
+    .m_nav ul li{
+        flex: 1;
+    }
+    .m_nav ul li a{
+        display: block;
+        width: 100%;
+        height: 66px;
+        line-height: 66px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 800;
+        color: #000;
+        cursor: pointer;
+    }
+
+    .conWrap{
+        width: 100%;
+        min-width: 0;
+        display: block;
+        padding-top: 100px;
+    }
+    .conWrap div.mainCon{
+        width: 100%;
+        padding: 0;
+    }
+    .conWrap div.subCon1, .conWrap div.subCon2{
+        width: 100%;
+    }
+    /* .conWrap .subCon1,
+    .conWrap .subCon2{
+        display: none;
+    } */
+
+    /* scrollActive */
+    .headWrap.scrollActive{
+        padding-bottom: 0;
+    }
+    .headWrap.scrollActive .mainLogo{
+        position: absolute;
+        left: 16px; top: 16px;
+        width: 72px;
+        height: 18px;
+        padding: 0;
+    }
+    .headWrap.scrollActive .mainLogo a{
+        width: 72px;
+        height: 18px;
+        background-position: 0 0;
+    }
+
+    /* footer */
+    footer{
+        display: none;
+    }
+    footer.m_footer{
+        display: block;
+    }
+}
